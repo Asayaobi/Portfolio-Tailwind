@@ -698,6 +698,10 @@ video {
   height: 1.25rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-96 {
   width: 24rem;
 }
@@ -802,6 +806,15 @@ video {
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .bg-sky-50 {
