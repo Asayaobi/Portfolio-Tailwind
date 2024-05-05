@@ -8,17 +8,17 @@
     <!-- Javascript -->
     <script>
         function copyEmail() {
-            const emailElement = document.getElementById('email');
-            const email = emailElement.innerText;
+            const emailElement = document.getElementById('email')
+            const email = emailElement.innerText
     
             navigator.clipboard.writeText(email)
                 .then(() => {
-                    alert('Email copied to clipboard: ' + email);
+                    alert('Email copied to clipboard: ' + email)
                 })
                 .catch((error) => {
-                    console.error('Failed to copy email: ', error);
-                    alert('Failed to copy email. Please try again.');
-                });
+                    console.error('Failed to copy email: ', error)
+                    alert('Failed to copy email. Please try again.')
+                })
         }
     </script>    
 </head>
