@@ -690,6 +690,10 @@ video {
   width: auto;
 }
 
+.w-52 {
+  width: 13rem;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -742,6 +746,10 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .self-center {
@@ -878,6 +886,21 @@ video {
   padding-right: 2rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
 }
@@ -904,6 +927,10 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
 }
 
 .text-left {
@@ -942,6 +969,16 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -1012,6 +1049,14 @@ video {
     width: 50%;
   }
 
+  .md\:w-96 {
+    width: 24rem;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:px-60 {
     padding-left: 15rem;
     padding-right: 15rem;
@@ -1022,8 +1067,37 @@ video {
     padding-bottom: 20rem;
   }
 
+  .md\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .md\:py-40 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .md\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .md\:pt-10 {
     padding-top: 2.5rem;
+  }
+
+  .md\:pl-32 {
+    padding-left: 8rem;
   }
 
   .md\:text-6xl {
@@ -1040,6 +1114,11 @@ video {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1055,6 +1134,11 @@ video {
   .lg\:px-40 {
     padding-left: 10rem;
     padding-right: 10rem;
+  }
+
+  .lg\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
   .lg\:text-7xl {
