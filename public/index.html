@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asaya's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Javascript -->
+    <script>
+        function copyEmail() {
+            const emailElement = document.getElementById('email');
+            const email = emailElement.innerText;
+    
+            navigator.clipboard.writeText(email)
+                .then(() => {
+                    alert('Email copied to clipboard: ' + email);
+                })
+                .catch((error) => {
+                    console.error('Failed to copy email: ', error);
+                    alert('Failed to copy email. Please try again.');
+                });
+        }
+    </script>    
 </head>
 <body>
 <!-- Introduction -->
@@ -305,8 +321,14 @@
                         alt="Email Logo"
                         class="h-5 w-5 mr-2"
                     />
-                        <div>asayaobi@gmail.com</div>
-                    </div>
+                    <div id="email" class="mr-2">asayaobi@gmail.com</div>
+                    <img
+                        src="https://www.svgrepo.com/show/528917/copy.svg"
+                        alt="Copy Email Logo"
+                        class="h-4 w-4 cursor-pointer"
+                        onclick="copyEmail()"
+                    />
+                </div>
                 <!-- phone -->
                 <div class="flex items-center">
                     <img
