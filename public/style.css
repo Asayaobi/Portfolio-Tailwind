@@ -1267,8 +1267,16 @@ video {
     margin-bottom: 9rem;
   }
 
+  .lg\:h-4 {
+    height: 1rem;
+  }
+
   .lg\:w-96 {
     width: 24rem;
+  }
+
+  .lg\:w-4 {
+    width: 1rem;
   }
 
   .lg\:grid-cols-2 {
