@@ -915,6 +915,18 @@ video {
   padding-left: 4rem;
 }
 
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.pl-14 {
+  padding-left: 3.5rem;
+}
+
+.pl-20 {
+  padding-left: 5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1137,6 +1149,10 @@ video {
 
   .lg\:pl-20 {
     padding-left: 5rem;
+  }
+
+  .lg\:pl-16 {
+    padding-left: 4rem;
   }
 
   .lg\:text-2xl {
