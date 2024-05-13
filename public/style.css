@@ -991,6 +991,11 @@ video {
     padding-bottom: 20rem;
   }
 
+  .md\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
   .md\:pl-10 {
     padding-left: 2.5rem;
   }
